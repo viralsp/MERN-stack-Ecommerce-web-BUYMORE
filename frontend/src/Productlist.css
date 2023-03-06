@@ -1,0 +1,61 @@
+.productlist-header{
+    padding: 10px;
+}
+
+.productlist-header>h1{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+}
+
+
+.paginationBox {
+    display: flex;
+    justify-content: center;
+    margin: 6vmax;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .page-item {
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    border: 1px solid #1cd6ce;
+    padding: 1vmax 1.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .page-item:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .page-item:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+  .page-link {
+    text-decoration: none;
+    font: 300 0.7vmax "Roboto";
+    color: #1cd6ce;
+    transition: all 0.3s;
+  }
+  
+  .page-item:hover {
+    background-color: rgb(230, 230, 230);
+  }
+  
+  .page-item:hover .page-link {
+    color: #1cd6ce;
+  }
+  
+  .pageItemActive {
+    background-color: #1cd6ce;
+  }
+  
+  .pageLinkActive {
+    color: white;
+  }
+  

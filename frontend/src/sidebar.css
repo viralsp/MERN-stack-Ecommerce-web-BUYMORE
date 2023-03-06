@@ -1,0 +1,41 @@
+.sidebar {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+  
+  .sidebar > a:first-child {
+    padding: 20px;
+  }
+  .sidebar > a > img {
+    width: 100%;
+    transition: all 0.5s;
+  }
+  
+  .sidebar > a > img:hover {
+    filter: drop-shadow(0 0 10px #06827b);
+  }
+  .sidebar a {
+    text-decoration: none;
+    color: #1cd6ce;
+    font: 200 1rem "Roboto";
+    padding: 2rem;
+    transition: all 0.5s;
+  }
+  .sidebar a:hover {
+    color: #1cd6ce;
+    transform: scale(1.1);
+  }
+  
+  .sidebar a > P {
+    display: flex;
+    align-items: center;
+  }
+  .sidebar a > p > svg {
+    margin-right: 0.5rem;
+  }
+  
+  /* .MuiTypography-root {
+    background-color: #fff !important;
+  } */
